@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {"source": "/courses", "destination": "/courses.html"},
+    {"source": "/about", "destination": "/about.html"},
+    {"source": "/results", "destination": "/results.html"},
+    {"source": "/faculty", "destination": "/faculty.html"},
+    {"source": "/contact", "destination": "/contact.html"},
+    {"source": "/privacy-policy", "destination": "/privacy-policy.html"},
+    {"source": "/terms-and-conditions", "destination": "/terms-and-conditions.html"},
+    {"source": "/(.*)", "destination": "/index.html"}
+  ]
+}
