@@ -38,10 +38,15 @@ function Home(){
           <div className="hero-note"><span className="hero-note-mark">✳</span><p>Built on strong concepts.<br/><strong>Focused on every student.</strong></p></div>
         </div>
         <div className="home-hero-visual">
-          <div className="visual-topline"><span>THE BHAVYAGYAN APPROACH</span><span>01 / 03</span></div>
-          <div className="portrait-frame"><div className="portrait-shape"></div><img src="/pdf-assets/manish-kumar-enhanced.webp" alt="Manish Kumar, Physics educator and mentor" fetchPriority="high"/><div className="portrait-label"><span>MEET YOUR MENTOR</span><strong>Er. Manish Kumar</strong><small>Physics educator · IIT Dhanbad</small></div></div>
-          <div className="visual-stamp"><span>✳</span><strong>15+</strong><small>YEARS OF<br/>TEACHING</small></div>
-          <div className="visual-bottomline"><span>CONCEPTS FIRST. ALWAYS.</span><span>↗</span></div>
+          <div className="mentor-card-top"><span>THE BHAVYAGYAN APPROACH</span><span className="mentor-card-rule" aria-hidden="true"></span><span>MEET YOUR MENTOR</span></div>
+          <div className="mentor-card">
+            <div className="mentor-card-photo"><img src="/pdf-assets/manish-kumar-enhanced.webp" alt="Manish Kumar, Physics educator and mentor" fetchPriority="high" width="768" height="768"/></div>
+            <div className="mentor-card-details">
+              <div className="mentor-card-identity"><span>PHYSICS EDUCATOR</span><strong>Er. Manish Kumar</strong><small>B.Tech · IIT Dhanbad</small></div>
+              <div className="mentor-card-experience"><strong>15<span>+</span></strong><small>YEARS OF<br/>TEACHING</small></div>
+            </div>
+          </div>
+          <div className="mentor-card-bottom"><span>CONCEPTS FIRST. ALWAYS.</span><span aria-hidden="true">✳</span></div>
         </div>
       </div>
     </section>
