@@ -8,6 +8,7 @@ A Vite + React website with client-side routes for courses, the academy, results
 npm install
 npm run dev
 npm run build
+npm test
 ```
 
 ## Deployment and enquiries
@@ -29,3 +30,7 @@ Before publishing, confirm the domain and build with `VITE_SITE_URL=https://your
 The homepage's quick enquiry always opens WhatsApp, even when an endpoint is configured; the more detailed form on the contact page uses `VITE_ENQUIRY_ENDPOINT` when provided. A connected enquiry management service, team notifications, access controls and follow-up tracking require a separately selected and configured backend or provider.
 
 Faculty portraits are stored in `public/portraits/`; obtain each educator's approval of their likeness before publication. The academy logo remains a separate, unaltered asset alongside the portraits.
+
+## Design system
+
+`src/design-system.css` contains the active colour, typography, spacing, focus and surface tokens for the website. The site uses the requested light background by default; dark surface tokens remain available for an explicitly enabled dark theme. Form validation messages are connected to their fields, and `npm test` checks the validation rules and key light/dark colour contrast combinations. The earlier CSS files are retained for reference but are no longer loaded.
