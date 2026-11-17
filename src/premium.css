@@ -20,3 +20,41 @@ footer{background:#122f35}.footer-grid h3{font-size:14px}.footer-grid a:not(.btn
   .nav>a.active:not(.btn):after{display:none}
   .nav .nav-cta{margin-top:15px;min-height:48px}
 }
+
+/* The mentor portrait is shown in its natural colours, without overlays. */
+.home-hero-visual { max-width: 500px; }
+.mentor-card-top, .mentor-card-bottom { display: flex; align-items: center; gap: 12px; font-size: 9px; font-weight: 700; letter-spacing: .13em; color: #6a7f78; }
+.mentor-card-top { padding: 0 2px 13px; }
+.mentor-card-rule { height: 1px; background: #cbd5c9; flex: 1; }
+.mentor-card { border: 1px solid #d9ded4; background: #f6f6f6; box-shadow: 0 16px 38px #27413b0b; }
+.mentor-card-photo { height: 385px; overflow: hidden; background: #f6f6f6; }
+.mentor-card-photo img { display: block; width: 100%; height: 100%; object-fit: contain; object-position: center bottom; }
+.mentor-card-details { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 19px 24px; background: #173c42; color: #fff; }
+.mentor-card-identity > span, .mentor-card-identity strong, .mentor-card-identity small { display: block; }
+.mentor-card-identity > span { color: #e6c18c; font-size: 9px; letter-spacing: .13em; font-weight: 700; }
+.mentor-card-identity strong { font-family: 'DM Serif Display', Georgia, serif; font-size: 23px; font-weight: 400; line-height: 1.2; margin: 5px 0; }
+.mentor-card-identity small { color: #d5e0db; font-size: 11px; }
+.mentor-card-experience { display: flex; align-items: center; gap: 10px; padding-left: 22px; border-left: 1px solid #ffffff40; }
+.mentor-card-experience strong { font-family: 'DM Serif Display', Georgia, serif; font-size: 33px; line-height: 1; font-weight: 400; color: #e6bd81; }
+.mentor-card-experience strong span { font-size: 19px; }
+.mentor-card-experience small { color: #d5e0db; font-size: 8px; line-height: 1.5; letter-spacing: .09em; font-weight: 700; }
+.mentor-card-bottom { justify-content: space-between; padding: 13px 2px 0; }
+.mentor-card-bottom span:last-child { color: #b75532; font-size: 17px; line-height: 1; }
+@media (max-width: 1050px) { .home-hero-visual { max-width: 430px; } .mentor-card-photo { height: 330px; } }
+@media (max-width: 767px) { .home-hero-visual { max-width: 460px; } .mentor-card-photo { height: 330px; } }
+@media (max-width: 420px) {
+  .mentor-card-top { font-size: 8px; gap: 7px; }
+  .mentor-card-photo { height: 285px; }
+  .mentor-card-details { padding: 16px; gap: 10px; }
+  .mentor-card-identity strong { font-size: 20px; }
+  .mentor-card-experience { gap: 6px; padding-left: 12px; }
+  .mentor-card-experience strong { font-size: 28px; }
+  .mentor-card-experience small { font-size: 7px; }
+}
+
+/* Generated portraits use the supplied logo as a separate, unaltered asset. */
+.faculty-image .faculty-photo { width: 100%; height: 100%; object-fit: contain; object-position: center bottom; }
+.faculty-image .faculty-logo, .mentor-card-photo .mentor-card-logo { position: absolute; top: 10px; right: 10px; z-index: 2; display: block; width: 48px; height: 52px; padding: 3px; object-fit: contain; background: #fff; border: 1px solid #e5e9df; }
+.mentor-card-photo { position: relative; }
+.director-portrait { position: relative; background: #f0f1ec; }
+.director-portrait img { display: block; width: 100%; }
