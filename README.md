@@ -28,4 +28,4 @@ Before publishing, confirm the domain and build with `VITE_SITE_URL=https://your
 
 The homepage's quick enquiry always opens WhatsApp, even when an endpoint is configured; the more detailed form on the contact page uses `VITE_ENQUIRY_ENDPOINT` when provided. A connected enquiry management service, team notifications, access controls and follow-up tracking require a separately selected and configured backend or provider.
 
-Faculty portraits are derived from the supplied PDF and use a restrained AI-assisted upscale blended with the original image. Fine facial detail may not be accurate; replace them with original high-resolution portraits and obtain faculty approval before publication.
+Faculty portraits are stored in `public/portraits/`; obtain each educator's approval of their likeness before publication. The academy logo remains a separate, unaltered asset alongside the portraits.
