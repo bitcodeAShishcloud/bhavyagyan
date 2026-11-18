@@ -19,7 +19,7 @@ The default enquiry flow opens a prefilled WhatsApp message to the number suppli
 
 ## Content to confirm
 
-The standalone logo variants and reference design images named in the request were not present in the checkout. The official logo shown in the supplied PDF is used as the closest available asset, including for the favicon and social preview. Course dates, fees, schedules, availability, current campus address and visiting hours, and academy-specific payment and refund policies need confirmation. The classroom image is presented as an image from the brochure, not as a verified current campus photograph. Student results and staff details are sourced from the supplied PDF and user-provided information; verify and update before publication.
+The standalone logo variants and reference design images named in the request were not present in the checkout. The official logo shown in the supplied PDF is used as the closest available asset for the social preview. The favicon is a circular version made from that logo. Course dates, fees, schedules, availability, current campus address and visiting hours, and academy-specific payment and refund policies need confirmation. The classroom image is presented as an image from the brochure, not as a verified current campus photograph. Student results and staff details are sourced from the supplied PDF and user-provided information; verify and update before publication.
 
 ## Search visibility
 
