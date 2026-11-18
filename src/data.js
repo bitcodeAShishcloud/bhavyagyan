@@ -5,12 +5,12 @@ export const courses = [
  {id:'foundation', category:'Foundation', title:'Foundation Learning', level:'School & foundation students', subject:'Ask about subject availability', description:'A strong conceptual base for students beginning their competitive exam journey.', syllabus:'Foundation topics; class-wise coverage to be confirmed.', method:'Student-centric teaching focused on conceptual clarity.', resources:'Please ask the academy about available learning resources.'}
 ];
 export const faculty = [
- {name:'Manish Kumar', subject:'Physics', experience:'15 years', detail:'B.Tech, IIT Dhanbad. Former faculty at Aakash, ALLEN, Narayana and Physics Wallah; also associated with Unacademy.', image:'/portraits/manish-kumar.webp'},
- {name:'Sumit Kumar', subject:'Physics', experience:'10 years', detail:'Former faculty at Aakash Institute and Career Point.', image:'/portraits/sumit-kumar.webp'},
- {name:'Riaz Sir', subject:'Biology', experience:'25 years', detail:'Former senior faculty at Career Point Kota and Aakash Institute Jaipur.', image:'/portraits/riaz-sir.webp'},
- {name:'Namita Jain', subject:'Maths', experience:'12 years', detail:'Former faculty at Resonance, FIITJEE and Aakash.', image:'/portraits/namita-jain.webp'},
- {name:'Sandip Das', subject:'Maths', experience:'12 years', detail:'Former senior faculty at Unacademy Bengaluru.', image:'/portraits/sandip-das.webp'},
- {name:'S. K. Thakur', subject:'Chemistry', experience:'21 years', detail:'Former director and senior Chemistry faculty at Narayana IIT Academy and Aakash Institute.', image:'/portraits/sk-thakur.webp'}
+ {name:'Manish Kumar', subject:'Physics', experience:'15 years', detail:'B.Tech, IIT Dhanbad. Former faculty at Aakash, ALLEN, Narayana and Physics Wallah; also associated with Unacademy.', image:'/portraits/manish-kumar.webp?v=black-polo'},
+ {name:'Sumit Kumar', subject:'Physics', experience:'10 years', detail:'Former faculty at Aakash Institute and Career Point.', image:'/portraits/sumit-kumar.webp?v=black-polo'},
+ {name:'Riaz Sir', subject:'Biology', experience:'25 years', detail:'Former senior faculty at Career Point Kota and Aakash Institute Jaipur.', image:'/portraits/riaz-sir.webp?v=black-polo'},
+ {name:'Namita Jain', subject:'Maths', experience:'12 years', detail:'Former faculty at Resonance, FIITJEE and Aakash.', image:'/portraits/namita-jain.webp?v=black-polo'},
+ {name:'Sandip Das', subject:'Maths', experience:'12 years', detail:'Former senior faculty at Unacademy Bengaluru.', image:'/portraits/sandip-das.webp?v=black-polo'},
+ {name:'S. K. Thakur', subject:'Chemistry', experience:'21 years', detail:'Former director and senior Chemistry faculty at Narayana IIT Academy and Aakash Institute.', image:'/portraits/sk-thakur.webp?v=black-polo'}
 ];
 export const results = [
  {name:'Aritro Roy', exam:'JEE Advanced · 2025', result:'AIR 50', note:'Mentored by Manish Kumar'},
