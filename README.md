@@ -8,6 +8,7 @@ A Vite + React website with client-side routes for courses, the academy, results
 npm install
 npm run dev
 npm run build
+npm test
 ```
 
 ## Deployment and enquiries
@@ -18,7 +19,7 @@ The default enquiry flow opens a prefilled WhatsApp message to the number suppli
 
 ## Content to confirm
 
-The standalone logo variants and reference design images named in the request were not present in the checkout. The official logo shown in the supplied PDF is used as the closest available asset, including for the favicon and social preview. Course dates, fees, schedules, availability, current campus address and visiting hours, and academy-specific payment and refund policies need confirmation. The classroom image is presented as an image from the brochure, not as a verified current campus photograph. Student results and staff details are sourced from the supplied PDF and user-provided information; verify and update before publication.
+The standalone logo variants and reference design images named in the request were not present in the checkout. The official logo shown in the supplied PDF is used as the closest available asset for the social preview. The favicon is a circular version made from that logo. Course dates, fees, schedules, availability, current campus address and visiting hours, and academy-specific payment and refund policies need confirmation. The classroom image is presented as an image from the brochure, not as a verified current campus photograph. Student results and staff details are sourced from the supplied PDF and user-provided information; verify and update before publication.
 
 ## Search visibility
 
@@ -29,3 +30,7 @@ Before publishing, confirm the domain and build with `VITE_SITE_URL=https://your
 The homepage's quick enquiry always opens WhatsApp, even when an endpoint is configured; the more detailed form on the contact page uses `VITE_ENQUIRY_ENDPOINT` when provided. A connected enquiry management service, team notifications, access controls and follow-up tracking require a separately selected and configured backend or provider.
 
 Faculty portraits are stored in `public/portraits/`; obtain each educator's approval of their likeness before publication. The academy logo remains a separate, unaltered asset alongside the portraits.
+
+## Design system
+
+`src/design-system.css` contains the active colour, typography, spacing, focus and surface tokens for the website. The site uses the requested light background by default; dark surface tokens remain available for an explicitly enabled dark theme. Form validation messages are connected to their fields, and `npm test` checks the validation rules and key light/dark colour contrast combinations. The earlier CSS files are retained for reference but are no longer loaded.
